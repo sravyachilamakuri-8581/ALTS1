@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>JavaScript storing single values</title>
+  </head>
+  <body>
+  <script>
+       // Creating array structure with single variable
+       var colors=["Red","Green","Blue"];     
+       // Printing variable values
+       document.write(colors);
+       document.write("<br>");
+       //Accessing the Elements of an Array
+       document.write(colors[0]);//First element
+       document.write("<br>");
+       document.write(colors[1]);//Second element
+       document.write("<br>");
+       document.write(colors[2]);//Third element
+       document.write("<br>");
+       //Getting the length of an array
+       document.write(colors.length); // outputs:3
+       document.write("<br>");
+       //Adding new elements to an array
+       colors.push("yellow");// add the value to end of the array
+       document.write(colors);
+       document.write("<br>");
+       document.write("white");//add the  value to begining of the array
+       document.write(colors);
+      document.write("<br>");
+          //"red","green","blue"
+         //push
+          //"red","green","blue","yellow"
+         //unshift
+         //"white","red","green","blue","yellow"
+     // Removing elements from an array
+     var last = colors.pop();
+     document.write(last +"<br>"); //prints: white
+     document.write(colors.length);//prints:4
+     document.write(colors);
+     document.write("<br>");
+     var first = colors.shift();
+     document.write(last +"<br>"); //prints: white
+     document.write(colors.length);//prints:3
+     document.write(colors);
+     document.write("<br>");	
+ </script>
+</body>
+</html>
