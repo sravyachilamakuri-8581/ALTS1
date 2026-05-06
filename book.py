@@ -1,0 +1,4 @@
+Python is interactive language.
+It is case sensitive language.
+It makes the difference between uppercase and lowercase letters.
+It is official language of google.
